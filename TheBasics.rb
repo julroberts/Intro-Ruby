@@ -37,6 +37,7 @@ thousandth_digit = int_input_number / 1000
 hundredth_digit = (int_input_number - (thousandth_digit * 1000))/100
 tenth_digit = (int_input_number - (thousandth_digit * 1000) - (hundredth_digit * 100))/10
 ones_digit = int_input_number - (thousandth_digit * 1000) - (hundredth_digit * 100) - (tenth_digit * 10)
+#small comment on "session-1"
 
 
 puts "INPUT: " + int_input_number.to_s
