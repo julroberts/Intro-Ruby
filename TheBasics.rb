@@ -36,7 +36,8 @@ int_input_number = 5329
 thousandth_digit = int_input_number / 1000
 hundredth_digit = (int_input_number - (thousandth_digit * 1000))/100
 tenth_digit = (int_input_number - (thousandth_digit * 1000) - (hundredth_digit * 100))/10
-ones_digit = int_input_number - (thousandth_digit *1000) - (hundredth_digit * 100) - (tenth_digit * 10)
+ones_digit = int_input_number - (thousandth_digit * 1000) - (hundredth_digit * 100) - (tenth_digit * 10)
+
 
 puts "INPUT: " + int_input_number.to_s
 puts "Thousandth digit: " + thousandth_digit.to_s
@@ -67,7 +68,7 @@ puts movie_dates[2].to_s
 
 def factorial (number)
   if number > 0
-    return number * factorial(number-1)  
+    return number * factorial(number-1)
   end
   return 1
 end
@@ -77,3 +78,4 @@ puts "Factorial of 5 is: " + factorial(5).to_s
 puts "Factorial of 6 is: " + factorial(6).to_s
 puts "Factorial of 7 is: " + factorial(7).to_s
 puts "Factorial of 8 is: " + factorial(8).to_s
+puts "Factorial of 9 is: " + factorial(9).to_s
