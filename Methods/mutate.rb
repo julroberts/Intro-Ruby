@@ -22,4 +22,4 @@ end
 
 p "Before mutate method: #{a}"
 p no_mutate(a)
-p "After mutate method: #{a}"
+p "After no_mutate method: #{a}"
