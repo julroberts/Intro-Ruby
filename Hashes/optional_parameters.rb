@@ -12,3 +12,4 @@ end
 greeting("Bob")
 greeting("Julio", {age: 40, city: "Guatemala City"})
 greeting("Mia", age: 32, city: "San Francisco")
+greeting("Peter", {age:25, city:"Toronto"})
